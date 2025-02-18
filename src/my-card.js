@@ -24,6 +24,7 @@ export class MyCard extends LitElement {
     return css`
       :host {
         display: block;
+        display: inline-block
       }
       :host([fancy]) .card{
         background-color: purple;
